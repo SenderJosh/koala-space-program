@@ -6,7 +6,7 @@ public class AgricultureFacility : MonoBehaviour
 
     private bool enbl = true;
     private Facility fac = null;
-
+    // On enable
     void OnEnable()
     {
         Storage.dayPassed += newDay;
